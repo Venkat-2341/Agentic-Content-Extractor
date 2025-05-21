@@ -1,5 +1,8 @@
+import rich
+from rich import print
+
 def main():
-    print("Hello from agentic-content-extractor!")
+    print("[italic red]Hello from agentic-content-extractor![/italic red]")
 
 
 if __name__ == "__main__":
