@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "graphviz>=0.21",
+    "langchain>=0.3.26",
+    "langchain-openai>=0.3.27",
+    "matplotlib>=3.10.3",
+    "networkx>=3.5",
+    "openai>=1.93.0",
     "pdfplumber>=0.11.6",
     "pillow>=11.2.1",
     "pymupdf>=1.25.5",
@@ -12,5 +18,6 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
     "rich>=14.0.0",
+    "streamlit>=1.46.1",
     "together>=1.5.8",
 ]

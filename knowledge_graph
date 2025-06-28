@@ -1,0 +1,21 @@
+// Knowledge Graph
+digraph {
+	node [shape=ellipse]
+	"Arjun Mehta" -> Tesla [label="worked at (2017)"]
+	"Arjun Mehta" -> "development of 4680 battery cells" [label="contribute to"]
+	"4680 battery cells" -> "Model Y’s range" [label=improved]
+	"Arjun Mehta" -> "IIT Bombay" [label="graduated from (2019)"]
+	"Arjun Mehta" -> "Tesla full-time" [label="joined (2019)"]
+	"Arjun Mehta" -> "Dr. Lisa Wong" [label="collaborated with"]
+	"Dr. Lisa Wong" -> Tesla [label="worked at"]
+	"Arjun Mehta" -> "anode chemistry using silicon nanowires" [label=optimized]
+	"research paper" -> "Silicon Nanowire Anodes for High-Energy Batteries" [label=titled]
+	"research paper" -> "Nature Energy" [label="published in (2020)"]
+	"Arjun Mehta" -> SpaceX [label="moved to (2021)"]
+	"Arjun Mehta" -> "Starship’s thermal protection systems" [label="worked on"]
+	"Arjun Mehta" -> "NanoVolt Energy" [label="founded (2023)"]
+	"NanoVolt Energy" -> "$50 million in Series A funding" [label=raised]
+	"Series A funding" -> "Sequoia Capital" [label="led by"]
+	"NanoVolt Energy" -> "companies like Joby Aviation" [label="working with"]
+	"companies like Joby Aviation" -> "batteries into their eVTOL aircraft" [label=integrating]
+}
