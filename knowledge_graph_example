@@ -1,0 +1,6 @@
+// Knowledge Graph Example
+digraph {
+	A [label="Arjun Mehta"]
+	B [label=Tesla]
+	A -> B [label="worked at"]
+}

@@ -1,0 +1,59 @@
+// Career Timeline
+digraph {
+	dpi=300 rankdir=LR size="20,5"
+	node [fillcolor=lightgrey shape=box style="rounded,filled"]
+	e0 [label="2017: Arjun Mehta started working at
+Tesla"]
+	e1 [label="Arjun Mehta contributed to
+development of 4680 battery
+cells"]
+	e0 -> e1
+	e2 [label="4680 battery cells improved
+Model Y’s range"]
+	e1 -> e2
+	e3 [label="2019: Arjun Mehta graduated from IIT
+Bombay"]
+	e2 -> e3
+	e4 [label="Arjun Mehta joined Tesla full-
+time"]
+	e3 -> e4
+	e5 [label="Arjun Mehta collaborated with
+Dr. Lisa Wong"]
+	e4 -> e5
+	e6 [label="Arjun Mehta optimized anode
+chemistry using silicon
+nanowires"]
+	e5 -> e6
+	e7 [label="research paper titled Silicon
+Nanowire Anodes for High-
+Energy Batteries"]
+	e6 -> e7
+	e8 [label="2020: research paper was published
+in Nature Energy"]
+	e7 -> e8
+	e9 [label="2021: Arjun Mehta moved to SpaceX"]
+	e8 -> e9
+	e10 [label="Arjun Mehta works on
+Starship's thermal protection
+systems"]
+	e9 -> e10
+	e11 [label="2023: Arjun Mehta founded NanoVolt
+Energy"]
+	e10 -> e11
+	e12 [label="NanoVolt Energy aims to
+commercialize solid-state
+lithium batteries for electric
+aviation"]
+	e11 -> e12
+	e13 [label="NanoVolt has raised $50
+million in Series A funding"]
+	e12 -> e13
+	e14 [label="Series A funding was led by
+Sequoia Capital"]
+	e13 -> e14
+	e15 [label="NanoVolt working with
+companies like Joby Aviation
+to integrate batteries into
+their eVTOL aircraft"]
+	e14 -> e15
+}

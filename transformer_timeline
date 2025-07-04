@@ -1,0 +1,67 @@
+// Career Timeline
+digraph {
+	dpi=300 rankdir=TB size="10,10"
+	node [fillcolor=lightgrey shape=box style="rounded,filled"]
+	{
+		rank=same
+		e0 [label="transformer-based models
+selected based on specific
+criteria"]
+		e1 [label="transformer-based models
+opened up new path for
+research"]
+		e0 -> e1
+		e2 [label="alternative approaches
+proposed for implementing
+transformer's attention
+mechanism"]
+		e1 -> e2
+		e3 [label="alternative approaches
+compared to vanilla
+architecture"]
+		e2 -> e3
+		e4 [label="alternative approaches
+introduced new attention
+mechanism"]
+		e3 -> e4
+	}
+	e4 -> e5
+	{
+		rank=same
+		e5 [label="alternative approaches
+enhancing position encoding
+module"]
+		e6 [label="transformer models had
+significant impact in the
+field"]
+		e5 -> e6
+		e7 [label="transformer models widely
+accepted by scientific
+community"]
+		e6 -> e7
+		e8 [label="transformer models contributed
+to breakthroughs in the
+advancement of transformer
+applications"]
+		e7 -> e8
+		e9 [label="models and variants proposed
+for applying transformer
+technology to real-world
+applications"]
+		e8 -> e9
+	}
+	e9 -> e10
+	{
+		rank=same
+		e10 [label="models and variants aimed at
+achieving superior performance
+results in comparison to other
+deep learning methods"]
+		e11 [label="transformer-based models
+generated significant buzz
+within theoretical and applied
+artificial intelligence
+community"]
+		e10 -> e11
+	}
+}

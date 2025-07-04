@@ -2,7 +2,7 @@ import streamlit as st
 from utils import process_pdf_generator
 
 def main():
-    st.title("PDF Processor with Page Progress Bar")
+    st.title("PDF Parser")
 
     uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
     
